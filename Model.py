@@ -2,7 +2,7 @@
 """
 Created on Wed May 25 15:54:22 2022
 
-@author: Γιώργος
+@author: Georgios Zaverdinos
 """
 
 
@@ -35,7 +35,7 @@ def network(neurons,N,J_e,J_i,C_e,C_i,v_ext,gamma,a,g,c_theta,c_sigma,t_init,t_e
     y_init = 0
     tau = 0.020
     t_e = 0.0035
-    t_i = 0.005
+    t_i = 0.0035
     t_ref = 0.0020
     t_vth = 8
     sptime = []
