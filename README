@@ -1,0 +1,28 @@
+The file named as Model.py can be used by only defining the desired parameters.
+
+In order to do that, open the Model.py file, go to line 332, and set 'qe = network()' with the desired parameters.
+
+Those parameters are the following:  neurons,N,J_e,J_i,C_e,C_i,I,v_freq,gamma,a,g,c_theta,c_sigma,t_init,t_end
+
+neurons - > Number of neurons in the network
+N -> Number of total time steps
+J_e -> Excitatory synaptic strength
+J_i -> Inhibitory synaptic strength 
+C_e -> number of excitatory connection each neuron receives
+C_i -> number of inhibitory connection each neuron receives
+I -> external constant input
+v_freq -> Poisson input rate
+gamma -> C_i/C_e
+a -> adaptation 
+g -> relative synaptic strength
+c_theta -> membrane constant
+c_sigma -> σ value (Euler)
+t_init -> Starting time of simulation
+t_end -> Ending time of simulation
+
+***  In order to define the range of each time step,  (t_end - t_init) / N  should be calculated. ***
+
+In LIF model, the minimum time step which provides sufficient results is 0.0005.
+
+After setting the desired values for all those parameters at line 332, press F5 to run the code. 
+The simulation time depends highly on the number of neurons, time range and time step.
