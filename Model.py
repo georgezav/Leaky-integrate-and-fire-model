@@ -10,9 +10,6 @@ from __future__ import division
 import numpy as np
 import matplotlib.pyplot as plt
 import math
-import math
-import numpy as np
-import matplotlib.pyplot as plt
 import random
 from scipy import special
 from decimal import Decimal as D
